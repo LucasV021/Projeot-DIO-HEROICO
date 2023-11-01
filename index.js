@@ -1,7 +1,7 @@
 
 // Desafio de classificação
 var nomeDoHeroi = "Lucas Vieira Ferrari"
-var xpDoHeroi = 2000.000
+var xpDoHeroi = 200000
 var definicao = ""
 if(xpDoHeroi === 1000){
     definicao = "Ferro"
@@ -27,4 +27,4 @@ else if (xpDoHeroi >9.001  && xpDoHeroi <=10.000){
 else {
     definicao = "Radiante"
 }
-console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${definicao } com uma quantidade incrivel de XP de ${xpDoHeroi} `)
+console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${definicao } com uma quantidade incrivel de XP de ${xpDoHeroi }.`)
