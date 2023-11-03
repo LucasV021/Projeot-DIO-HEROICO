@@ -1,30 +1,35 @@
-
+// historia do heroi inicial 
+var xpInicial = 1
+console.log(`O jovem heroí q saiu de sua cidade com um xp inicial de ${xpInicial} achou uma caverna magica e nessa caverna encontrou um elixir supremo de XP, tomou
+esse elixir e se sentiu estranho e desmaiou `)
+for (var i = 1 ; i <= 200000 ; i += 100000 ){
+    xpInicial += 100000 
+}
 // Desafio de classificação
 var nomeDoHeroi = "Lucas Vieira Ferrari"
-var xpDoHeroi = 200000
 var definicao = ""
-if(xpDoHeroi === 1000){
+if(xpInicial === 1000){
     definicao = "Ferro"
 }
-else if (xpDoHeroi >1.001 && xpDoHeroi <=2.000){
+else if (xpInicial >1.001 && xpInicial <=2.000){
     definicao = "Bronze"
 }
-else if (xpDoHeroi >2.001 && xpDoHeroi <=2.001){
+else if (xpInicial >2.001 && xpInicial <=2.001){
     definicao = "Prata"
 }
-else if(xpDoHeroi >6.000 && xpDoHeroi <=7.000){
+else if(xpInicial >6.000 && xpInicial <=7.000){
     definicao = "Ouro"
 }
-else if (xpDoHeroi > 7.001 && xpDoHeroi <=8.000){
+else if (xpInicial > 7.001 && xpInicial <=8.000){
     definicao = "Platina"
 }
-else if (xpDoHeroi >8.001  && xpDoHeroi <=9.000){
+else if (xpInicial >8.001  && xpInicial <=9.000){
     definicao = "Ascendente"
 }
-else if (xpDoHeroi >9.001  && xpDoHeroi <=10.000){
+else if (xpInicial >9.001  && xpInicial <=10.000){
     definicao = "Imortal"
 }
 else {
     definicao = "Radiante"
 }
-console.log(`O Herói de nome ${nomeDoHeroi} está no nível de ${definicao } com uma quantidade incrivel de XP de ${xpDoHeroi }.`)
+console.log(`O Herói de nome ${nomeDoHeroi} acordou abriu sua hotbar e conferiu que estava na classificação de ${definicao } com uma quantidade incrivel de XP parando no nivel ${xpInicial}.`)
